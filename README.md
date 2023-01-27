@@ -4,8 +4,7 @@
 To develop a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
 
 ## Entity Relationship Diagram
-
-![Entity Relationship Diagram](./er.png)
+![er](https://user-images.githubusercontent.com/119518996/215155223-1b7cc7b9-8835-4b77-97d6-635d2bce116a.png)
 
 ## DESIGN STEPS
 
@@ -22,8 +21,8 @@ Enter the code for admin.py and model.py
 Execute Django admin and create 10 employees
 
 ## PROGRAM
+```
 
-'''
 Model.py
 
 from django.db import models
@@ -44,10 +43,11 @@ from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)  
 
-'''
+```
 ## OUTPUT
 
-![OUTPUT](./OUT.png)
+![oiiii](https://user-images.githubusercontent.com/119518996/215155467-3cb26783-e029-4e33-8cb0-f8d6f41c4d1b.png)
+
 
 
 ## RESULT
